@@ -1,0 +1,396 @@
+* {
+font-family: GothamRoundedBook;
+}
+.content {
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-section {
+  background: url("../img/bg.jpg") 100% 100%;
+  background-size: cover;
+  height: 740px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.top-menu {
+  text-align: center;
+}
+
+.top-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: inline-block;
+
+}
+
+.top-menu li {
+  display: inline-block;
+  margin: 0 32px;
+}
+
+.top-menu a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.top-menu .logo {
+  margin: 0 70px;
+}
+
+.top-menu .logo img {
+  margin-bottom: -10px;
+}
+
+/*intro*/
+.intro {
+  color: #fff;
+  margin-top: 245px;
+}
+
+.intro h1 {
+  margin: 0;
+  font: bold 36px Arial;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.intro .subtitle {
+  margin: 25px 0;
+  font: normal 16px Arial;
+}
+
+.btn {
+  border: solid 1px #16a085;
+  display: inline-block;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 50px;
+  padding: 0 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #16a085;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+
+  -webkit-transition: ease-in-out .4s;
+  -moz-transition: ease-in-out .4s;
+  -ms-transition: ease-in-out .4s;
+  -o-transition: ease-in-out .4s;
+  transition: ease-in-out .4s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #16a085;
+}
+
+/*Social links*/
+.social-links {
+  display: inline-block;
+  margin: 225px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0 7px;
+}
+
+/*
+переименовал .content1 в .text-left-block.
+Такое название более семмантично.
+
+Картинку из Бекграунда лучше вынести в .content.
+Добавляем цвет фона, так как цвет в дизайне
+распространяется на всю ширину
+*/
+.text-left-block {
+  background-color: #f5f6f7;
+  height: 490px;
+}
+
+.text-left-block .content {
+  /*это все можно записать в одну строку*/
+  /*background: url("../img/phone-in-hand.png") no-repeat right;*/
+  background-image: url("../img/phone-in-hand.png");
+  background-position: bottom right; /*позиционируем снизу справа*/
+  background-repeat: no-repeat; /*запрещаем картинке дублироваться*/
+
+  height: 100%;}
+.text-left-block .left-block {
+  width: 448px;
+}
+
+.text-left-block h2 {
+  font: 18px "GothamRoundedBold";
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #16a085;
+  margin: 110px 0 0;
+}
+.text-left-block p {
+  font: normal 12px/2 "GothamRoundedBook";
+  letter-spacing: 2px;
+  margin: 50px 0;
+}
+
+
+.text-right-block {
+  background-color: white;
+  height: 558px;
+}
+
+.text-right-block .content {
+  background: url("../img/telephone.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 100%;
+}
+
+.text-right-block .right-block {
+  width: 448px;
+  margin-left: 640px;
+}
+.text-right-block h3 {
+  font-size: 18px;
+  font-family: GothamRoundedBold;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #16a085;
+  margin-top: 146px;
+}
+
+.text-right-block p {
+  font-size: 12px;
+  line-height: 2;
+  font-family: GothamRoundedBook;
+  letter-spacing: 2px;
+  margin-top: 45px;
+}
+
+.text-right-block a {
+  margin-top: 42px;
+}
+
+.gallery {
+  height: 480px;
+  background-color: #f5f6f7;
+
+}
+
+
+.section4 {
+  display: inline-block;
+  width: 192px;
+  text-align: center;
+  margin: 0 auto;
+  color: #373737;
+
+}
+
+.section4 h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: GothamRoundedBold;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+
+ .section4 p {
+   font-family: GothamRoundedBook;
+   display: inline-block;
+   font-size: 10px;
+   color: #373737;
+
+ }
+
+.avto {
+  display: inline-block;
+  margin: 120px 24px 0 57px;
+
+}
+
+.foliage {
+  display: inline-block;
+  margin-top: 120px;
+
+}
+
+.your_mail {
+  background: url("../img/mail.jpg") 100% 100%;
+  height: 787px;
+
+}
+
+.section5 {
+  display: inline-block;
+
+}
+.section5 h5 {
+  margin-top: 350px;
+  font-family: GothamRoundedBold;
+  margin-left: 276px;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 4px;
+
+}
+.form {
+  text-align: center;
+  margin-left: 340px;
+
+}
+#mail {
+  width: 280px;
+  height: 58px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #373737;
+
+}
+
+input[type="text"] {
+  float: left;
+  border: none;
+  outline: none; /* Убираем свечение в Chrome и Safari */
+  -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+  border-radius: 3px 0 0 3px;
+}
+
+
+input[type="submit"] {
+  float: left;
+  width: 63px;
+  height: 60px;
+  background: url("../img/ok.png");
+  background-position: bottom;
+  border: none;
+  border-radius: 0 3px 3px 0;
+}
+
+.store {
+  background-color: #f5f6f7;
+  height: 396px;
+  text-align: center;
+}
+.store h6 {
+  margin-top: 92px;
+  font-size: 20px;
+  font-family: GothamRoundedBold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #373737;
+}
+
+.store p {
+    color: #373737;
+    font-family: GothamRoundedBook;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 2;
+    width: 896px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
+.store a {
+  float: left;
+}
+
+.store-href {
+  width: 800px;
+  margin: auto;
+  margin-top: 48px;
+}
+
+.apple {
+  display: inline-table;
+  float: left;
+  padding: 0 13px;
+  margin-left: 110px;
+
+}
+
+.android {
+  display: inline-table;
+  float: left;
+  padding: 0 13px;
+}
+
+.btn-href {
+  border: solid 1px #16a085;
+  letter-spacing: 2px;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 54px;
+  width: 140px;
+  padding: 0 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #16a085;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px 0 0 3px;
+
+  -webkit-transition: ease-in-out .4s;
+  -moz-transition: ease-in-out .4s;
+  -ms-transition: ease-in-out .4s;
+  -o-transition: ease-in-out .4s;
+  transition: ease-in-out .4s;
+}
+
+.last-block {
+  background-color: white;
+}
+
+.last-block .content {
+  background-image: url("../img/logogreen.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 130px;
+}
+
+.footer a {
+  display: inline-block;
+  font-family: GothamRoundedBold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #373737;
+  text-decoration: none;
+  margin-top: 47px;
+}
+
+#privacy {
+  margin: 0 22px;
+}
+
+.footer p {
+  font-size: 14px;
+  font-family: GothamRoundedBold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #373737;
+
+}
