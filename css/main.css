@@ -110,12 +110,12 @@ font-family: GothamRoundedBook;
 }
 
 /*
-переименовал .content1 в .text-left-block.
-Такое название более семмантично.
+РїРµСЂРµРёРјРµРЅРѕРІР°Р» .content1 РІ .text-left-block.
+РўР°РєРѕРµ РЅР°Р·РІР°РЅРёРµ Р±РѕР»РµРµ СЃРµРјРјР°РЅС‚РёС‡РЅРѕ.
 
-Картинку из Бекграунда лучше вынести в .content.
-Добавляем цвет фона, так как цвет в дизайне
-распространяется на всю ширину
+РљР°СЂС‚РёРЅРєСѓ РёР· Р‘РµРєРіСЂР°СѓРЅРґР° Р»СѓС‡С€Рµ РІС‹РЅРµСЃС‚Рё РІ .content.
+Р”РѕР±Р°РІР»СЏРµРј С†РІРµС‚ С„РѕРЅР°, С‚Р°Рє РєР°Рє С†РІРµС‚ РІ РґРёР·Р°Р№РЅРµ
+СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏРµС‚СЃСЏ РЅР° РІСЃСЋ С€РёСЂРёРЅСѓ
 */
 .text-left-block {
   background-color: #f5f6f7;
@@ -123,11 +123,11 @@ font-family: GothamRoundedBook;
 }
 
 .text-left-block .content {
-  /*это все можно записать в одну строку*/
+  /*СЌС‚Рѕ РІСЃРµ РјРѕР¶РЅРѕ Р·Р°РїРёСЃР°С‚СЊ РІ РѕРґРЅСѓ СЃС‚СЂРѕРєСѓ*/
   /*background: url("../img/phone-in-hand.png") no-repeat right;*/
   background-image: url("../img/phone-in-hand.png");
-  background-position: bottom right; /*позиционируем снизу справа*/
-  background-repeat: no-repeat; /*запрещаем картинке дублироваться*/
+  background-position: bottom right; /*РїРѕР·РёС†РёРѕРЅРёСЂСѓРµРј СЃРЅРёР·Сѓ СЃРїСЂР°РІР°*/
+  background-repeat: no-repeat; /*Р·Р°РїСЂРµС‰Р°РµРј РєР°СЂС‚РёРЅРєРµ РґСѓР±Р»РёСЂРѕРІР°С‚СЊСЃСЏ*/
 
   height: 100%;}
 .text-left-block .left-block {
@@ -269,8 +269,8 @@ font-family: GothamRoundedBook;
 input[type="text"] {
   float: left;
   border: none;
-  outline: none; /* Убираем свечение в Chrome и Safari */
-  -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+  outline: none; /* РЈР±РёСЂР°РµРј СЃРІРµС‡РµРЅРёРµ РІ Chrome Рё Safari */
+  -webkit-appearance: none; /* РЈР±РёСЂР°РµРј СЂР°РјРєСѓ РІ Chrome Рё Safari */
   border-radius: 3px 0 0 3px;
 }
 
